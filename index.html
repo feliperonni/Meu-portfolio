@@ -3,41 +3,107 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Felipe - Landing Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-<main>
-
-    <h1>Felipe Ronni</h1>
-
-    <p>Aprendendo Desenvolvimento Web Full-Stack🚀</p>
-
-    <img src="img/minhafoto.png" alt="Foto de Felipe Ronni" width="200">
-
-    <P>Meu nome é <strong>Felipe</strong> e esta é minha <u>primeira</u> página <strong><i>HTML!</i></strong></P>
-        
-        <BLOCkquote><i>"Programadores e artistas são os únicos profissionais que tem como hobby a própria profissão"</i> Rafael Lain</BLOCkquote>
-
-        <h2>Funcionalidade desta página:</h2>
-
-        <p>Página criada para por em <strong>prática</strong> tudo o que foi <mark>aprendido durante as aulas.</mark></p>
-
-</main>
-
-    <article>
-      <h2>Um pequeno artigo</h2>
-      <p>HTML é a base da web, e aprender semântica ajuda a criar sites mais organizados e acessíveis.</p>
-    </article>
-
+  <header>
+    <h1>Felipe</h1>
     <nav>
-      <a href="sobre_mim.html">Sobre mim</a> |
-      <a href="hobbies.html">Hobbies</a> |
-      <a href="contato.html">Contato</a>
-    </nav>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato">Contato</a>
+    </nav>  
+  </header>
 
-<footer>
+  <div class="listra">
+    <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+         class="listra gradient">
+  </div>
+
+  <main id="home">
+    <div id="saudacao">
+      <p>Olá, seja Bem-Vindo!</p>
+      <p>Portfólio landing page</p>
+    <div>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+        <img src="img/minhafoto.png" alt="Foto de Felipe Ronni" id="foto">
+        <p>Nome: Felipe Ronni</p>
+        <p>Idade: 23 anos</p>
+        <p>Cursando: Python, HTML, CSS e JS</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Meus hobbies</h2>
+        <p>Jogar videogame</p>
+        <p>Carros</p>
+        <p>Estudar Programação</p>
+    </section>
+
+    <section id="skills">
+      <div class="titulo-skills">
+        <h2>Skills</h2>
+      </div>
+
+      <div id="gif">
+        <div class="gif-image">
+          <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" 
+               alt="Gif animado de habilidades" 
+               class="gif-image">
+        </div>
+
+        <div id="logos">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
+          <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+
+      <div id="logos-contato">
+        <div class="logo-link">
+          <div class="logo-animada-github">
+            <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" 
+                 alt="logo animada github">
+          </div>
+          <div id="linkgithub">
+            <a href="https://github.com/feliperonni" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="logo-link">
+          <div class="logo-animada-linkedin">
+            <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" 
+                 alt="logo animada linkedin">
+          </div>
+          <div id="linklinkedin">
+            <a href="https://www.linkedin.com/in/felipe-ronni-3a7015381/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <blockquote>
+      <i>"Programadores e artistas são os únicos profissionais que têm como hobby a própria profissão"</i> - Rafael Lain
+    </blockquote>
+  </main>
+
+  <footer>
     <p>&copy; 2025 - Criado por Felipe Ronni</p>
-</footer>
-
+  </footer>
 </body>
+
+</html>
