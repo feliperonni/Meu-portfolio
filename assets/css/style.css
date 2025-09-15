@@ -88,6 +88,33 @@ h2 {
     margin: 20px auto;
 }
 
+
+#sobre-mim {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#sobre-mim .sobres {
+  margin: 24px 0;
+}
+
+#sobre-mim .sobres .sobre {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #8c00ff;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#sobre-mim .sobres .sobre span {
+  color: #00eeff;
+}
+
 #skills {
     padding: 20px;
     text-align: center;
@@ -117,12 +144,50 @@ h2 {
 }
 
 #saudacao {
-    margin: 10px 0;
-    font-size: 22px;
+    height: 300px;
+    background-size: contain;
+    background-image: url("https://private-user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc5MTY0NTYsIm5iZiI6MTc1NzkxNjE1NiwicGF0aCI6Ii83NDAzODE5MC8yNDE3NjU0NDAtODA3Mjg4MjAtZTA2Yi00Zjk2LTljOWUtOWRmNDZmMGNjMGE1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTE1VDA2MDIzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2MDg5MmE0M2Q1NWYxYzMyNDc2ZGM5ZDFiZjQyNzZlZjJiYWI3YmRkZGE1MjBkMGMwYTFkYWQ4NWIxMjRjYjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.FKCUIvsJzAfahD4Jz8-l4HCX9P82nRXnrYXu5lSLn4E");
+    background-attachment: fixed;
+    padding: 200px;
+    align-items: center;
+}
+
+#saudacao > p {
+    color: white;
+    text-shadow: 2px 2px #333;
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 50%;
 }
 
 #skills, #sobre, #hobbies, #contato {
     margin: 50px;
+}
+
+#meus-hobbies {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#meus-hobbies .hobbies {
+  margin: 24px 0;
+}
+
+#meus-hobbies .hobbies .hobbie {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #8c00ff;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#meus-hobbies .hobbies .hobbie span {
+  color: #00eeff;
 }
 
 .logo-animada-github,
@@ -135,9 +200,9 @@ h2 {
 
 .logo-animada-github img,
 .logo-animada-linkedin img {
-  width: 150px;        /* largura igual */
-  height: 150px;       /* altura igual */
-  object-fit: contain; /* mantém proporção dentro do espaço */
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
   display: block;
 }
 
