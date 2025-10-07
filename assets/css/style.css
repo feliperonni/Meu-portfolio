@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24, 24, 27);
+    color: white;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    gap: 50px;
+}
+
+header h1 {
+    background: linear-gradient(90deg, rgb(0, 217, 255), rgb(174, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    flex-shrink: 0;
+}
+
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.listra {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.listra img {
+  width: 100%;
+  max-height: 10px;
+  object-fit: cover;
+}
+
+#saudacao > p {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: 400;
+    font-size: 25px;
+    margin: auto;
+}
+
+main {
+    padding: 100px 20px 120px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+    background: linear-gradient(90deg, blueviolet 0%, cyan 50%, deeppink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+    display: block;
+    margin: 20px auto;
+}
+
+
+#sobre-mim {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#sobre-mim .sobres {
+  margin: 24px 0;
+}
+
+#sobre-mim .sobres .sobre {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #8c00ff;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#sobre-mim .sobres .sobre span {
+  color: #00eeff;
+}
+
+#skills {
+    padding: 20px;
+    text-align: center;
+}
+
+#gif {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: inline-flex;
+    gap: 200px;
+}
+
+.gif-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+#logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#skills, #sobre, #hobbies, #contato {
+    margin: 50px;
+}
+
+#meus-hobbies {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#meus-hobbies .hobbies {
+  margin: 24px 0;
+}
+
+#meus-hobbies .hobbies .hobbie {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #8c00ff;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#meus-hobbies .hobbies .hobbie span {
+  color: #00eeff;
+}
+
+.logo-animada-github,
+.logo-animada-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.logo-animada-github img,
+.logo-animada-linkedin img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+
+
+#linkgithub a,
+#linklinkedin a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#logos-contato {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    font-weight: 500;
+}
