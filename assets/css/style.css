@@ -213,8 +213,7 @@ h2 {
     text-align: center;
 }
 
-#link-pokedex a,
-#link-piano a {
+#links-projetos a{
     color: white;
     text-decoration: none;
     font-weight: 600;
